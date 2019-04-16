@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.google.firebase.database.DatabaseReference;
+//import com.google.firebase.database.DatabaseReference;
 
 public class AddFishActivity extends AppCompatActivity {
 
@@ -29,7 +29,7 @@ public class AddFishActivity extends AppCompatActivity {
         editTextDate = (EditText) findViewById(R.id.editTextDate);
 
         fishDataSource = new FishFirebaseData();
-        fishDataSource.open();
+//        fishDataSource.open();
 
         // get the current location of the phone
 //        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
